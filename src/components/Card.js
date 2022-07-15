@@ -1,13 +1,6 @@
 import React from "react";
-export default function Card({
-  title,
-  description,
-  price,
-  coverImg,
-  stats,
-  location,
-  openSpots,
-}) {
+export default function Card(props) {
+  let { title, price, coverImg, stats, location, openSpots } = props;
   let badgeText;
   if (openSpots === 0) {
     badgeText = "SOLD OUT";

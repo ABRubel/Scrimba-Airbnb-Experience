@@ -1,28 +1,17 @@
 import "./App.css";
 import Card from "./components/Card";
-// import Hero from "./components/Hero";s
+import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import data from "./data";
 
 function App() {
   let cards = data.map((item) => {
-    return (
-      <Card
-        key={item.id}
-        title={item.title}
-        description={item.description}
-        price={item.price}
-        coverImg={item.coverImg}
-        stats={item.stats}
-        location={item.location}
-        openSpots={item.openSpots}
-      />
-    );
+    return <Card key={item.id} {...item} />;
   });
   return (
     <div className="App">
       <Navbar />
-      {/* <Hero /> */}
+      <Hero />
       <section className="cards-list">{cards}</section>
     </div>
   );
