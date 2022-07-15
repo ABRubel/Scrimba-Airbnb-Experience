@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Scrimba-Airbnb-Experience/static/css/main.84c01566.css",
-    "main.js": "/Scrimba-Airbnb-Experience/static/js/main.7bb93e0e.js",
+    "main.js": "/Scrimba-Airbnb-Experience/static/js/main.8f18451b.js",
     "static/js/787.e8223466.chunk.js": "/Scrimba-Airbnb-Experience/static/js/787.e8223466.chunk.js",
     "index.html": "/Scrimba-Airbnb-Experience/index.html",
     "main.84c01566.css.map": "/Scrimba-Airbnb-Experience/static/css/main.84c01566.css.map",
-    "main.7bb93e0e.js.map": "/Scrimba-Airbnb-Experience/static/js/main.7bb93e0e.js.map",
+    "main.8f18451b.js.map": "/Scrimba-Airbnb-Experience/static/js/main.8f18451b.js.map",
     "787.e8223466.chunk.js.map": "/Scrimba-Airbnb-Experience/static/js/787.e8223466.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.84c01566.css",
-    "static/js/main.7bb93e0e.js"
+    "static/js/main.8f18451b.js"
   ]
 }
